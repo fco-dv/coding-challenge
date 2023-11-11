@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "coding-challenge"
+version = "0.1.0"
+description = "coding challenge"
+authors = ["Francois Cokelaer <francois.cokelaer@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+lightning = "^2.1.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
